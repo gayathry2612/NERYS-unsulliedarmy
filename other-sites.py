@@ -32,6 +32,7 @@ Left To Do:
 Credits:
 Niveen Jegatheeswaran - Main Dev - https://github.com/snivyn/
 kyb3r - Discord Embed - https://github.com/kyb3r/
+gayathry2612 - Making modifications to track jobs 
 '''
 
 import requests
@@ -140,7 +141,7 @@ def send_embed(product):
     Sends a discord alert based on info provided.
     '''
 
-    url = 'INSERT YOUR WEBHOOK HERE'
+    url = "https://discord.com/api/webhooks/811178312336277504/ekKQ7L_aSJSbBWRiD7xH9PrcjeibAIG6P-KhMkVCLWDggsgzRSqSljNPQKPFkFSm69Mj"
 
     embed = Webhook(url, color=123123)
 
