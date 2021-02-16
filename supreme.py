@@ -78,7 +78,7 @@ def send_embed(alert_type, product):
     Sends a discord alert based on info provided.
     '''
     # Set webhook
-    url = "https://discord.com/api/webhooks/811178312336277504/ekKQ7L_aSJSbBWRiD7xH9PrcjeibAIG6P-KhMkVCLWDggsgzRSqSljNPQKPFkFSm69Mj"
+    url = discord_webhook
 
     # Create embed to send to webhook
     embed = Webhook(url, color=123123)
@@ -263,7 +263,7 @@ if(__name__ == "__main__"):
     # Initialize variables
     products_list = {}
     proxies = get_proxy(proxy_list)
-    discord_webhook = ""  # Put your webhook here
+    discord_webhook = "https://discord.com/api/webhooks/811178312336277504/ekKQ7L_aSJSbBWRiD7xH9PrcjeibAIG6P-KhMkVCLWDggsgzRSqSljNPQKPFkFSm69Mj"  # Put your webhook here
 
     # Build database
     build_db()
