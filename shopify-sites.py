@@ -97,7 +97,7 @@ def send_embed(alert_type, link, fields, site, image, product):
     Sends a discord alert based on info provided.
     '''
 
-    url = "https://discord.com/api/webhooks/811178312336277504/ekKQ7L_aSJSbBWRiD7xH9PrcjeibAIG6P-KhMkVCLWDggsgzRSqSljNPQKPFkFSm69Mj"
+    url = discord_webhook
 
     embed = Webhook(url, color=123123)
 
@@ -297,7 +297,7 @@ if(__name__ == "__main__"):
         "the 10"
         ]
 
-    webhook = ""  # Put your webhook link here
+    discord_webhook = "https://discord.com/api/webhooks/811178312336277504/ekKQ7L_aSJSbBWRiD7xH9PrcjeibAIG6P-KhMkVCLWDggsgzRSqSljNPQKPFkFSm69Mj"  # Put your webhook link here
 
     delay = 5  # Lots of sites + few proxies = longer delay to avoid bans
 
